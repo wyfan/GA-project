@@ -6,7 +6,7 @@
  * @author Pudding 20170203
  */
 
-GA_TRACE_CODE = "UA-89833109-1";
+GA_TRACE_CODE = "UA-153121700-1"; //DLLL LAB GA
 
 var _local_debug = false;
 
