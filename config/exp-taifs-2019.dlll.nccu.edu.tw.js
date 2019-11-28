@@ -8,7 +8,7 @@
 
 GA_TRACE_CODE = "UA-153121700-1"; //DLLL LAB GA
 
-var _local_debug = false;
+var _local_debug = true;
 
 if (_local_debug === true) {
     CSS_URL = "../ga-taifs/config/exp-taifs-2019.dlll.nccu.edu.tw.css";
