@@ -11,8 +11,8 @@ GA_TRACE_CODE = "UA-153121700-1"; //DLLL LAB GA
 var _local_debug = true;
 
 if (_local_debug === true) {
-  CSS_URL = "../ga-taifs/config/exp-taifs-2019.dlll.nccu.edu.tw.css";
-  LIB_URL = "../ga-taifs/ga_inject_lib.js";
+  CSS_URL = "../config/exp-taifs-2019.dlll.nccu.edu.tw.css";
+  LIB_URL = "../iframe/ga-taifs/ga_inject_lib.js";
   console.log("[LOCAL TEST MODE]");
 } else {
   CSS_URL = "https://wyfan.github.io/GA-project/config/exp-taifs-2019.dlll.nccu.edu.tw.css";
