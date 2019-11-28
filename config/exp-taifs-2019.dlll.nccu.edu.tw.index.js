@@ -23,7 +23,7 @@ if (_local_debug === true) {
 var exec = function() {
   //auto_set_user_id();
 
-  //toolbar click
+  //20191128 - toolbar click
   ga_mouse_click_event('#btnArticles_guide', "taifs_click_guide_open");
   ga_mouse_click_event('.btnClose_guide', "taifs_click_guide_close");
   ga_mouse_click_event('#btnArticles_read', "taifs_click_reading_open");
