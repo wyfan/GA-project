@@ -30,8 +30,8 @@ var exec = function() {
   ga_mouse_click_event('#btnClose_read', "taifs_click_reading_close");
 
   //最相關主題
-  ga_mouse_click_event(".discuss_light0", "主題0");
-  ga_mouse_click_event(".discuss_light1", "主題1");
+  ga_mouse_click_event("#t00", "主題00");
+  ga_mouse_click_event("#t01", "主題01");
   ga_mouse_click_event(".mobile-nav-close-mask", "GL1_4");
   ga_mouse_click_event(".btn-back-all", "GL1_4");
 
