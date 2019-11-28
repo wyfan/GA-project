@@ -11,21 +11,23 @@ GA_TRACE_CODE = "UA-153121700-1"; //DLLL LAB GA
 var _local_debug = false;
 
 if (_local_debug === true) {
-    CSS_URL = "https://localhost/GA-project/config/www.travel.taipei.css";
+    CSS_URL = "https://localhost/GA-project/config/exp-taifs-2019.dlll.nccu.edu.tw.css";
     LIB_URL = "https://localhost/GA-project/ga_inject_lib.js";
     console.log("[LOCAL TEST MODE]");
 }
 else {
-    CSS_URL = "https://billxu0521.github.io/GA-project/config/www.travel.taipei.css";
-    LIB_URL = "https://billxu0521.github.io/GA-project/ga_inject_lib.js";
+    CSS_URL = "https://wyfan.github.io/GA-project/config/exp-taifs-2019.dlll.nccu.edu.tw.css";
+    LIB_URL = "https://wyfan.github.io/GA-project/ga_inject_lib.js";
 }
 
 
 var exec = function () {
     //auto_set_user_id();
 
-    //GL1-3 click
-    ga_mouse_click_event('a[title="臺北旅遊網"]', "GL1_3");
+    //toolbar click
+    ga_mouse_click_event('#btnArticles_discuss', "討論目標");
+    ga_mouse_click_event('#btnArticles_read', "閱讀教材");
+    ga_mouse_click_event('#btnClose', "關閉視窗");
 
     //GL1-4 導覽列 click
     ga_mouse_click_event("#btn-open-menu","GL1_4");
