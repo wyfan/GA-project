@@ -33,53 +33,127 @@ var exec = function() {
   ga_mouse_click_event(".discuss6", "taifs_click_light6_open");
 
   //各主題詞彙
-  ga_mouse_click_event("#t00", "taifs_click_t00");
-  ga_mouse_click_event("#t01", "taifs_click_t01");
-  ga_mouse_click_event("#t02", "taifs_click_t02");
-  ga_mouse_click_event("#t03", "taifs_click_t03");
-  ga_mouse_click_event("#t04", "taifs_click_t04");
+  ga_mouse_click_event("#t00", "taifs_click_t00", function(_td) {
+    return $(_td).text();
+  });//$("#t00").text());//
+  ga_mouse_click_event("#t01", "taifs_click_t01", function(_td) {
+    return $(_td).text();
+  });
+  ga_mouse_click_event("#t02", "taifs_click_t02", function(_td) {
+    return $(_td).text();
+  });
+  ga_mouse_click_event("#t03", "taifs_click_t03", function(_td) {
+    return $(_td).text();
+  });
+  ga_mouse_click_event("#t04", "taifs_click_t04", function(_td) {
+    return $(_td).text();
+  });
 
-  ga_mouse_click_event("#t10", "taifs_click_t10");
-  ga_mouse_click_event("#t11", "taifs_click_t11");
-  ga_mouse_click_event("#t12", "taifs_click_t12");
-  ga_mouse_click_event("#t13", "taifs_click_t13");
-  ga_mouse_click_event("#t14", "taifs_click_t14");
+  ga_mouse_click_event("#t10", "taifs_click_t10", function(_td) {
+    return $(_td).text();
+  });
+  ga_mouse_click_event("#t11", "taifs_click_t11", function(_td) {
+    return $(_td).text();
+  });
+  ga_mouse_click_event("#t12", "taifs_click_t12", function(_td) {
+    return $(_td).text();
+  });
+  ga_mouse_click_event("#t13", "taifs_click_t13", function(_td) {
+    return $(_td).text();
+  });
+  ga_mouse_click_event("#t14", "taifs_click_t14", function(_td) {
+    return $(_td).text();
+  });
 
-  ga_mouse_click_event("#t20", "taifs_click_t20");
-  ga_mouse_click_event("#t21", "taifs_click_t21");
-  ga_mouse_click_event("#t22", "taifs_click_t22");
-  ga_mouse_click_event("#t23", "taifs_click_t23");
-  ga_mouse_click_event("#t24", "taifs_click_t24");
+  ga_mouse_click_event("#t20", "taifs_click_t20", function(_td) {
+    return $(_td).text();
+  });
+  ga_mouse_click_event("#t21", "taifs_click_t21", function(_td) {
+    return $(_td).text();
+  });
+  ga_mouse_click_event("#t22", "taifs_click_t22", function(_td) {
+    return $(_td).text();
+  });
+  ga_mouse_click_event("#t23", "taifs_click_t23", function(_td) {
+    return $(_td).text();
+  });
+  ga_mouse_click_event("#t24", "taifs_click_t24", function(_td) {
+    return $(_td).text();
+  });
 
-  ga_mouse_click_event("#t30", "taifs_click_t30");
-  ga_mouse_click_event("#t31", "taifs_click_t31");
-  ga_mouse_click_event("#t32", "taifs_click_t32");
-  ga_mouse_click_event("#t33", "taifs_click_t33");
-  ga_mouse_click_event("#t34", "taifs_click_t34");
+  ga_mouse_click_event("#t30", "taifs_click_t30", function(_td) {
+    return $(_td).text();
+  });
+  ga_mouse_click_event("#t31", "taifs_click_t31", function(_td) {
+    return $(_td).text();
+  });
+  ga_mouse_click_event("#t32", "taifs_click_t32", function(_td) {
+    return $(_td).text();
+  });
+  ga_mouse_click_event("#t33", "taifs_click_t33", function(_td) {
+    return $(_td).text();
+  });
+  ga_mouse_click_event("#t34", "taifs_click_t34", function(_td) {
+    return $(_td).text();
+  });
 
-  ga_mouse_click_event("#t40", "taifs_click_t40");
-  ga_mouse_click_event("#t41", "taifs_click_t41");
-  ga_mouse_click_event("#t42", "taifs_click_t42");
-  ga_mouse_click_event("#t43", "taifs_click_t43");
-  ga_mouse_click_event("#t44", "taifs_click_t44");
+  ga_mouse_click_event("#t40", "taifs_click_t40", function(_td) {
+    return $(_td).text();
+  });
+  ga_mouse_click_event("#t41", "taifs_click_t41", function(_td) {
+    return $(_td).text();
+  });
+  ga_mouse_click_event("#t42", "taifs_click_t42", function(_td) {
+    return $(_td).text();
+  });
+  ga_mouse_click_event("#t43", "taifs_click_t43", function(_td) {
+    return $(_td).text();
+  });
+  ga_mouse_click_event("#t44", "taifs_click_t44", function(_td) {
+    return $(_td).text();
+  });
 
-  ga_mouse_click_event("#t50", "taifs_click_t50");
-  ga_mouse_click_event("#t51", "taifs_click_t51");
-  ga_mouse_click_event("#t52", "taifs_click_t52");
-  ga_mouse_click_event("#t53", "taifs_click_t53");
-  ga_mouse_click_event("#t54", "taifs_click_t54");
+  ga_mouse_click_event("#t50", "taifs_click_t50", function(_td) {
+    return $(_td).text();
+  });
+  ga_mouse_click_event("#t51", "taifs_click_t51", function(_td) {
+    return $(_td).text();
+  });
+  ga_mouse_click_event("#t52", "taifs_click_t52", function(_td) {
+    return $(_td).text();
+  });
+  ga_mouse_click_event("#t53", "taifs_click_t53", function(_td) {
+    return $(_td).text();
+  });
+  ga_mouse_click_event("#t54", "taifs_click_t54", function(_td) {
+    return $(_td).text();
+  });
 
-  ga_mouse_click_event("#t60", "taifs_click_t60");
-  ga_mouse_click_event("#t61", "taifs_click_t61");
-  ga_mouse_click_event("#t62", "taifs_click_t62");
-  ga_mouse_click_event("#t63", "taifs_click_t63");
-  ga_mouse_click_event("#t64", "taifs_click_t64");
+  ga_mouse_click_event("#t60", "taifs_click_t60", function(_td) {
+    return $(_td).text();
+  });
+  ga_mouse_click_event("#t61", "taifs_click_t61", function(_td) {
+    return $(_td).text();
+  });
+  ga_mouse_click_event("#t62", "taifs_click_t62", function(_td) {
+    return $(_td).text();
+  });
+  ga_mouse_click_event("#t63", "taifs_click_t63", function(_td) {
+    return $(_td).text();
+  });
+  ga_mouse_click_event("#t64", "taifs_click_t64", function(_td) {
+    return $(_td).text();
+  });
+  //ga_mouse_click_event("#t00", "taifs_click_t64", $('#AddSearch').val());
+
 
   //搜尋欄位
-  ga_mouse_click_event("#discussSearch", "taifs_click_moodle_search");
-  ga_mouse_click_event("#googleSearch", "taifs_click_external_search");
+  ga_mouse_click_event("#discussSearch", "taifs_click_moodle_search", $('#AddSearch').val());
+  ga_mouse_click_event("#googleSearch", "taifs_click_external_search", function(_input) {
+    return $(_input).text();
+  });
 
-
+//---------------------------------------------------------------------------
   //GL1-6 click
   ga_mouse_click_event(".unit:eq(0)", "GL1_6");
 
@@ -250,7 +324,7 @@ var exec = function() {
 
   //GL6-2  跳離網域
   //ga_mouse_click_event('a[target="_blank"]:not(.js-photoswipe-item)',"GL6_2");
-  ga_mouse_click_event('a:not([target="_blank"])', "googlsearch_result");
+  ga_mouse_click_event('a:not([target="_blank"])', "moodlesearch_close");
 
   setInterval(function() {
     ga_mouse_click_event('.gsc-resultsbox-visible .gs-title > .gs-title:not(.event-binded)', "GL6_2", function(_a) {
