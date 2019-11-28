@@ -11,7 +11,7 @@ GA_TRACE_CODE = "UA-153121700-1"; //DLLL LAB GA
 var _local_debug = true;
 
 if (_local_debug === true) {
-  CSS_URL = "../config/exp-taifs-2019.dlll.nccu.edu.tw.css";
+  CSS_URL = "exp-taifs-2019.dlll.nccu.edu.tw.css";
   LIB_URL = "../iframe/ga-taifs/ga_inject_lib.js";
   console.log("[LOCAL TEST MODE]");
 } else {
@@ -25,15 +25,16 @@ var exec = function() {
 
   //toolbar click
   ga_mouse_click_event('#btnArticles_guide', "taifs_click_guide_open");
-  ga_mouse_click_event('#btnClose_guide', "taifs_click_guide_close");
+  ga_mouse_click_event('.btnClose_guide', "taifs_click_guide_close");
   ga_mouse_click_event('#btnArticles_read', "taifs_click_reading_open");
-  ga_mouse_click_event('#btnClose_read', "taifs_click_reading_close");
+  ga_mouse_click_event('.btnClose_read', "taifs_click_reading_close");
 
-  //最相關主題
+  /*//最相關主題
+  ga_mouse_click_event(".discuss0", "discuss0");
   ga_mouse_click_event("#t00", "主題00");
   ga_mouse_click_event("#t01", "主題01");
   ga_mouse_click_event(".mobile-nav-close-mask", "GL1_4");
-  ga_mouse_click_event(".btn-back-all", "GL1_4");
+  ga_mouse_click_event(".btn-back-all", "GL1_4");*/
 
   //GL1-5 麵包屑/首頁 click
   ga_mouse_scroll_in_event('.breadcrumb:eq(0)', "GL1_5");
