@@ -148,9 +148,20 @@ var exec = function() {
 
 
   //搜尋欄位
-  ga_mouse_click_event("#discussSearch", "taifs_click_moodle_search", $('#AddSearch').val());
-  ga_mouse_click_event("#googleSearch", "taifs_click_external_search", function(_input) {
-    return $(_input).text();
+  //ga_mouse_click_event("#discussSearch", "taifs_click_moodle_search",$('#AddSearch').val())
+
+  ga_mouse_click_event("#discussSearch", "taifs_click_moodle_search", () => {
+    //console.log($('#AddSearch').length)
+    //console.log($('#AddSearch').val())
+    //$('#AddSearch').css('color', 'red')
+    return $('#AddSearch').val()
+  });
+
+  ga_mouse_click_event("#googleSearch", "taifs_click_external_search", () => {
+    //console.log($('#AddSearch').length)
+    //console.log($('#AddSearch').val())
+    //$('#AddSearch').css('color', 'red')
+    return $('#AddSearch').val()
   });
 
 //---------------------------------------------------------------------------
