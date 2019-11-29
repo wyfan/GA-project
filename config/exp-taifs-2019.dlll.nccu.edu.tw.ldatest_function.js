@@ -5,9 +5,19 @@
  * GA https://analytics.google.com/analytics/web/#realtime/rt-overview/a89833109w133278856p137301362/
  * @author Pudding 20170203
  */
-
 GA_TRACE_CODE = "UA-153121700-1"; //DLLL LAB GA
+//USER_IP = "1129"
+var cookie_ldatest_function = document.cookie;
+console.log('ldatest_function='+cookie_ldatest_function);
+var cookieArr = document.cookie.split(';');
+var myCookie = cookieArr[0];
+var userName = myCookie.substring(9);
+console.log('現在的使用者是：' + userName);
+USER_IP = userName;
 
+
+
+//-----
 var _local_debug = true;
 
 if (_local_debug === true) {
@@ -344,8 +354,8 @@ var exec = function() {
     $('.gsc-resultsbox-visible .gs-title > .gs-title:not(.event-binded)').addClass("event-binded");
   }, 500);
 
-  ga_display_timer(9);
-  enable_screen_recorder_link();
+  //ga_display_timer(9);
+  //enable_screen_recorder_link();
 };
 
 // --------------------------------------

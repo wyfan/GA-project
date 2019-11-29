@@ -7,6 +7,17 @@
  */
 
 GA_TRACE_CODE = "UA-153121700-1"; //DLLL LAB GA
+//USER_IP = "1129"
+var cookie_index = document.cookie;
+console.log('index='+cookie_index);
+var cookieArr = document.cookie.split(';');
+var myCookie = cookieArr[0];
+var userName = myCookie.substring(9);
+console.log('現在的使用者是：' + userName);
+USER_IP = userName;
+
+
+//-----
 
 var _local_debug = true;
 
@@ -209,17 +220,17 @@ var exec = function() {
 
   //GL6-2  跳離網域
   //ga_mouse_click_event('a[target="_blank"]:not(.js-photoswipe-item)',"GL6_2");
-  ga_mouse_click_event('a:not([target="_blank"])', "GL6_2");
+  /*ga_mouse_click_event('a:not([target="_blank"])', "GL6_2");
 
   setInterval(function() {
     ga_mouse_click_event('.gsc-resultsbox-visible .gs-title > .gs-title:not(.event-binded)', "GL6_2", function(_a) {
       return $(_a).text();
     });
     $('.gsc-resultsbox-visible .gs-title > .gs-title:not(.event-binded)').addClass("event-binded");
-  }, 500);
+  }, 500);*/
 
-  ga_display_timer(9);
-  enable_screen_recorder_link();
+  //ga_display_timer(9);
+  //enable_screen_recorder_link();
 };
 
 // --------------------------------------
